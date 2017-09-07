@@ -3,11 +3,13 @@
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<title>First Activity Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 	<!-- Heading -->
 	<h1>Tanner & Cameron</h1>
+	<hr />
 
 	<!-- Paragraphs -->
 	<div>
@@ -21,11 +23,9 @@
 		<a href="https://www.w3schools.com/">
 			<em>w3 Schools</em>
 		</a>
-		<br>
 		<a href="https://validator.w3.org/">
 			<em> Schools markup Validation Service</em>
 		</a>
-		<br>
 		<a href="https://getbootstrap.com/">
 			<em>Bootstrap</em>
 		</a>
@@ -34,9 +34,9 @@
 
 	<!-- Images -->
 	<a href="https://en.wikipedia.org/wiki/Red_panda">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/RedPandaFullBody.JPG" style="width:200px;height:200px" alt="Red Panda">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/RedPandaFullBody.JPG" style="width:200px;height:200px" alt="Red Panda" id="panda">
 	</a>
-	<div>
+	<div id="HelloWorld">
 		<code>
 			public static void main(String []args)
 			{
@@ -62,6 +62,7 @@
 </table>
 
 <!-- Unordered bullited List. -->
+<div>
 <ul>
 	<li>Inline elements include images, urls, spans. Block elements include divs, headers, paragraphs</li>
 
@@ -70,11 +71,14 @@
 	<li>The default font size is 2em and the font weight is bold for the h1 tag.</li>
 
 	<li>To load the page it takes 721 ms.</li>
+		<ul id="circlebullet">
+			<li>700 from the user.</li>
+		</ul>
 
 	<li>Open the inspector and go to the network.  Click on the image and look at the status code in the Header tab.</li>
 
 </ul>
-
+</div>
 <!-- Footer -->
 <footer>
 	<p>&copy;</p>

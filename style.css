@@ -1,0 +1,63 @@
+body {
+	/* Some light yellow*/
+	background-color: rgb(255, 255, 204);
+	font-family: "Verdana", serif;
+
+}
+
+h1, h2, h3, h4 {
+	font-family: "Geirgua", serif;
+	font-size: 3em;
+	text-align: center;
+}
+
+p, ul {
+	/* Dark Blue */
+	color: rgb(0, 0, 102);
+}
+
+em {
+	color: rgb(0, 102, 0);
+}
+
+ul li {
+	list-style-type: square;
+}
+
+#circlebullet > li {
+	list-style-type: circle;
+}
+
+li {
+	padding: 5px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#panda {
+	border-radius: 100px;
+}
+
+#panda:hover {
+	opacity: 0.5;
+}
+
+#HelloWorld {
+
+	background-color: rgb(255, 153, 51);
+	border-style: outset;
+	margin-right: 250px;
+	padding-left: 50px; 
+}
+
+table, th, td{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+}
