@@ -1,6 +1,5 @@
 body {
-	/* Some light yellow*/
-	background-color: rgb(255, 255, 204);
+	background-color: rgb(255, 255, 204); /* Some light yellow*/
 	font-family: "Verdana", serif;
 
 }
@@ -12,20 +11,18 @@ h1, h2, h3, h4 {
 }
 
 p, ul {
-	/* Dark Blue */
-	color: rgb(0, 0, 102);
+	color: rgb(0, 0, 102); /* Dark Blue */
 }
 
-em {
-	color: rgb(0, 102, 0);
+
+table, th, td{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
 }
 
 ul li {
 	list-style-type: square;
-}
-
-#circlebullet > li {
-	list-style-type: circle;
 }
 
 li {
@@ -40,6 +37,15 @@ a:hover {
 	text-decoration: underline;
 }
 
+em {
+	color: rgb(0, 102, 0);
+}
+
+#circlebullet > li {
+	list-style-type: circle;
+}
+
+
 #panda {
 	border-radius: 100px;
 }
@@ -49,15 +55,8 @@ a:hover {
 }
 
 #HelloWorld {
-
 	background-color: rgb(255, 153, 51);
 	border-style: outset;
 	margin-right: 250px;
 	padding-left: 50px; 
-}
-
-table, th, td{
-	border: 1px solid black;
-	padding: 5px;
-	text-align: left;
 }
