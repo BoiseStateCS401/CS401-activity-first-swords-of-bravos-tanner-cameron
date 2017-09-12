@@ -21,6 +21,11 @@ table, th, td{
 	text-align: left;
 }
 
+#NavBar > li{
+	list-style-type: none;
+
+}
+
 ul li {
 	list-style-type: square;
 }
@@ -40,6 +45,7 @@ a:hover {
 em {
 	color: rgb(0, 102, 0);
 }
+
 
 #circlebullet > li {
 	list-style-type: circle;
