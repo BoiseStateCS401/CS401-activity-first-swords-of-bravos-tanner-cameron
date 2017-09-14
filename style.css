@@ -4,7 +4,12 @@ body {
 
 }
 
+header {
+	margin:left;
+}
+
 h1, h2, h3, h4 {
+	margin: auto;
 	font-family: "Geirgua", serif;
 	font-size: 3em;
 	text-align: center;
@@ -65,4 +70,9 @@ em {
 	border-style: outset;
 	margin-right: 250px;
 	padding-left: 50px; 
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
 }
