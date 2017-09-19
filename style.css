@@ -60,6 +60,18 @@ em {
 #panda:hover {
 	opacity: 0.5;
 }
+#expand{
+	width: 20px;
+	height: 20px;
+	float: right;
+	display: none;
+}
+#collapse{
+	width: 20px;
+	height: 20px;
+	float: right;
+	display: inline-block;
+}
 
 #HelloWorld {
 	background-color: rgb(255, 153, 51);
